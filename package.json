@@ -33,7 +33,7 @@
   "scripts": {
     "build": "gatsby build",
     "heroku-postbuild": "gatsby build",
-    "start": "gatsby serve",
+    "start": "gatsby serve -p $PORT -H 0.0.0.0",
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
     "serve": "gatsby serve",
