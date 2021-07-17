@@ -27,7 +27,7 @@ const Footer = () => {
             ))}
           </div>
           <span>
-            Made With <icon>ReactJS</icon> by{" "}
+            Made With ReactJS
           </span>
         </div>
       </div>

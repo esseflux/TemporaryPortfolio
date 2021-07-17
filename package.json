@@ -3,7 +3,7 @@
   "private": true,
   "description": "Portfolio Template For Awesome Peoples",
   "version": "0.1.0",
-  "author": "EsseFlux",
+  "author": "Chetan Verma <hello@chetanverma.com>",
   "dependencies": {
     "gatsby": "^2.26.1",
     "gatsby-image": "^2.5.0",
@@ -34,7 +34,7 @@
     "build": "gatsby build",
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
-    "start": "gatsby serve",
+    "start": "npm run develop",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
