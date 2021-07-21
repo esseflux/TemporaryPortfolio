@@ -10,7 +10,7 @@ const Work = () => {
       <div className="container">
         <div className="work-wrapper">
           <Fade bottom>
-            <h1>Sample Arts</h1>
+            <h1>Arts</h1>
           </Fade>
 
           <div className="grid">
