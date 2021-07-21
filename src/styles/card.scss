@@ -18,8 +18,9 @@
     transform: translate(0, 20px);
     cursor: pointer;
     h1 {
-      font-size: 14px;
+      font-size: 1rem;
       color: white;
+      text-shadow: 2px 0 0 #000, 0 -2px 0 #000, 0 2px 0 #000, -2px 0 0 #000;
     }
     p {
       font-size: 10px;

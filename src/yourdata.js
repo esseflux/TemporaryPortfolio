@@ -1,63 +1,63 @@
-// Skills Icons
+/* Skills Icons */
 import htmlIcon from "./images/html.svg"
 import cssIcon from "./images/css.svg"
-import reactIcon from "./images/react.svg"
+//import reactIcon from "./images/react.svg"
 import jsIcon from "./images/javascript.svg"
+import psIcon from "./images/ps-icon.svg"
+import aiIcon from "./images/ai-icon.svg"
 import designIcon from "./images/design.svg"
 import codeIcon from "./images/code.svg"
 
-// Social Icon
+/* Social Icon */
 import githubIcon from "./images/github.svg"
-import codepenIcon from "./images/codepen.svg"
-import dribbbleIcon from "./images/dribbble.svg"
-import instagramIcon from "./images/instagram.svg"
+//import codepenIcon from "./images/codepen.svg"
+//import dribbbleIcon from "./images/dribbble.svg"
+//import instagramIcon from "./images/instagram.svg"
 
-// Work Images
-import * as art1 from "./images/arts/digitalArt1.jpg"
-import * as art2 from "./images/arts/digitalArt2.jpg"
-import * as art3 from "./images/arts/digitalArt3.jpg"
-import * as art4 from "./images/arts/digitalArt4.jpg"
+/* Work Images */
+import * as psArt1 from "./images/arts/digitalArt1.jpg"
+import * as psArt2 from "./images/arts/digitalArt2.jpg"
+import * as psArt3 from "./images/arts/digitalArt3.jpg"
+import * as psArt4 from "./images/arts/digitalArt4.jpg"
+
+// Adobe Illustrator
+import * as aiArt1 from "./images/arts/aiArt1.jpg"
+
+// Hand Drawn Arts
+import * as hdArt1 from "./images/arts/hdArt1.png"
 
 export default {
   //(Please Do Not Remove The comma(,) after every variable)
   //Change The Website Template
 
   //   Header Details ---------------------
-  name: "EsseFlux",
+  name: "Jana",
   headerTagline: [
     //Line 1 For Header
-    "Building digital",
+    "Digital Artist,",
     //Line 2 For Header
-    "products, brands,",
+    "Graphic Desiner",
     //Line 3 For Header
-    "and experience",
+    "and a Marketer",
   ],
   //   Header Paragraph
   headerParagraph:
-    "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.",
+    "I love creating masterpiece out of different mediums and technology ",
 
   //Contact Email
-  contactEmail: "hello@email.com",
+  contactEmail: "https://www.linkedin.com/in/janalyn-quizana/",
 
   // End Header Details -----------------------
 
   // Work Section ------------------------
   projects: [
+    /* ------Photoshop Arts------ */
     {
       title: "Photoshop Art", //Project Title - Add Your Project Title Here
       para:
         "", // Add Your Service Type Here
       //Project Image - Add Your Project Image Here
-      imageSrc: art1.default,
-      //Project URL - Add Your Project Url Here
-      url: "#",
-    },
-    {
-      title: "Photoshop Art", //Project Title - Add Your Project Title Here
-      para:
-        "", // Add Your Service Type Here
-      //Project Image - Add Your Project Image Here
-      imageSrc: art2.default,
+      imageSrc: psArt1.default,
       //Project URL - Add Your Project Url Here
       url: "#",
     },
@@ -66,7 +66,7 @@ export default {
       para:
         "", // Add Your Service Type Here
       //Project Image - Add Your Project Image Here
-      imageSrc: art3.default,
+      imageSrc: psArt2.default,
       //Project URL - Add Your Project Url Here
       url: "#",
     },
@@ -75,30 +75,41 @@ export default {
       para:
         "", // Add Your Service Type Here
       //Project Image - Add Your Project Image Here
-      imageSrc: art4.default,
-      //Project URL - Add Your Project Url Here
-      url: "#",
-    },
-    /*{
-      title: "Project Five", //Project Title - Add Your Project Title Here
-      para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", // Add Your Service Type Here
-      //Project Image - Add Your Project Image Here
-      imageSrc:
-        "https://images.unsplash.com/photo-1534239143101-1b1c627395c5?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8NzZ8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
+      imageSrc: psArt3.default,
       //Project URL - Add Your Project Url Here
       url: "#",
     },
     {
-      title: "Project Six", //Project Title - Add Your Project Title Here
+      title: "Photoshop Art", //Project Title - Add Your Project Title Here
       para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", // Add Your Service Type Here
+        "", // Add Your Service Type Here
       //Project Image - Add Your Project Image Here
-      imageSrc:
-        "https://images.unsplash.com/photo-1517479149777-5f3b1511d5ad?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTAyfHxwYXN0ZWx8ZW58MHx8MHw%3D&auto=format&fit=crop&w=400&q=60",
+      imageSrc: psArt4.default,
       //Project URL - Add Your Project Url Here
       url: "#",
-    }, */
+    },
+
+    /* ------Illustrator Arts------ */
+    {
+      title: "Adobe Illustrator Art", //Project Title - Add Your Project Title Here
+      para:
+        "", // Add Your Service Type Here
+      //Project Image - Add Your Project Image Here
+      imageSrc: aiArt1.default,
+      //Project URL - Add Your Project Url Here
+      url: "#",
+    },
+
+    /* ------Hand Drawn Arts------ */
+    {
+      title: "Hand Drawn Art", //Project Title - Add Your Project Title Here
+      para:
+        "", // Add Your Service Type Here
+      //Project Image - Add Your Project Image Here
+      imageSrc: hdArt1.default,
+      //Project URL - Add Your Project Url Here
+      url: "#",
+    },
 
     /*
     If You Want To Add More Project just Copy and Paste This At The End
@@ -115,13 +126,13 @@ export default {
 
   // About Secton --------------
   aboutParaOne:
-    "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+    "I'm a freelance graphics designer and I already created logos, covers, video presentations, and posters for clients. I did commissions and made sure that my clients are satisfied with my works. Seeing my clients happy is a motivation to continue my journey in making arts and design. ",
   aboutParaTwo:
-    "It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+    "At a young age, people around me already saw my potential in the field of arts. I always draw whenever I have free time and if ever needed for school stuff. I participated in a lot of art related competitions when I was studying and I continued my hobby as years passed by. I tried different kinds of mediums to find out which particular medium I am comfortable with but I realized that sticking to one medium will not help me grow, it will make me stuck. One day I started exploring both traditional and digital art in which people started seeing my worth. I know in myself that I love arts and I will never stop making arts.",
   aboutParaThree:
-    "It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+    "My passion for art is something that runs in my blood and a reflection of my soul. In this changing world, being skilled in both traditional and digital art is an advantage. I am glad to show the world, the universe rather, that I am a living masterpiece with a heart. ",
   aboutImage:
-    "https://images.unsplash.com/photo-1519713958759-6254243c4a53?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80",
+    "https://image.shutterstock.com/image-vector/beautiful-hipster-fashion-style-graphic-260nw-180503726.jpg",
 
   //   End About Section ---------------------
 
@@ -131,64 +142,53 @@ export default {
 
   skills: [
     {
+      img: designIcon,
+      para:
+        "Excellent Designer, Certified Visual Graphics Designer under TESDA.",
+    },
+    {
+      img: psIcon,
+      para:
+        "Excellent and Certified in Photoshop, photoshop is where I sketch and finalize my designs."
+    },
+    {
+      img: aiIcon,
+      para:
+        "Highly Experienced in Adobe Illustrator, where I design whenever necessary."
+    },
+    {
       img: htmlIcon,
       para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+        "Knowledgeable in HTML, have great experience coding in html. Creating this portfolio has been a great experience.",
     },
     {
       img: cssIcon,
       para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+        "Knowledgeable in CSS, been using css as my style sheet ever since. I also have experience with SCSS.",
     },
     {
       img: jsIcon,
       para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
-    },
-    {
-      img: reactIcon,
-      para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
-    },
-    {
-      img: designIcon,
-      para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
-    },
-    {
-      img: codeIcon,
-      para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
-    },
+        "Knowledgeable in JavaScript, my main programming language for web programming. Also have good experience in other programming languages.",
+    },  
   ],
 
   // End Skills Section --------------------------
 
   //   Promotion Section --------------------------
 
-  promotionHeading: "Heading",
+  promotionHeading: "",
   promotionPara:
-    "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+    "Need a great designer at low cost? I might be the one you are looking for!~",
   // End Promotion Section -----------------
 
   //   Contact Section --------------
 
-  contactSubHeading: "Let's create your next experience together",
+  contactSubHeading: "Let's make Business Better!",
   social: [
     // Add Or Remove The Link Accordingly
-    { img: githubIcon, url: "https://github.com/" },
-    {
-      img: codepenIcon,
-      url: "https://www.codepen.com/",
-    },
-    {
-      img: dribbbleIcon,
-      url: "https://dribbble.com/",
-    },
-    {
-      img: instagramIcon,
-      url: "https://www.instagram.com/",
-    },
+    { img: githubIcon, url: "https://github.com/esseflux" },
+    
   ],
 
   // End Contact Section ---------------

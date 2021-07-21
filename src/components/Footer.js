@@ -27,7 +27,7 @@ const Footer = () => {
             ))}
           </div>
           <span>
-            Made With ReactJS
+            Portfolio Made With ReactJS
           </span>
         </div>
       </div>

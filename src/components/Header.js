@@ -37,13 +37,20 @@ const Header = () => {
             </div>
           </Fade>
           <Fade bottom>
-            <p>{data.headerParagraph}</p>
+            <p>
+              <span role="img" aria-label="Emoji">
+                ⭐
+              </span>
+              {data.headerParagraph}
+              <span role="img" aria-label="Emoji">
+                ⭐
+              </span>
+            </p>
           </Fade>
           <Fade bottom>
             <a
-              href={`mailto:${
-                data.contactEmail ? data.contactEmail : "hello@email.com"
-              }`}
+              href={`${data.contactEmail}`}
+              target="_blank"
               className="primary-btn"
             >
               CONNECT WITH ME
